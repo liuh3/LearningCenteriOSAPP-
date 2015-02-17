@@ -7,12 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D0E53CC1A8E67BB00FC7C0E /* StudentEvaluationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0E53CB1A8E67BB00FC7C0E /* StudentEvaluationViewController.swift */; };
+		7D0E53D01A8E681E00FC7C0E /* TutorEvaluationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0E53CF1A8E681E00FC7C0E /* TutorEvaluationViewController.swift */; };
 		7D4E36CD1A87E0EA00479010 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4E36CC1A87E0EA00479010 /* AppDelegate.swift */; };
-		7D4E36CF1A87E0EA00479010 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4E36CE1A87E0EA00479010 /* ViewController.swift */; };
 		7D4E36D21A87E0EA00479010 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D4E36D01A87E0EA00479010 /* Main.storyboard */; };
 		7D4E36D41A87E0EA00479010 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D4E36D31A87E0EA00479010 /* Images.xcassets */; };
 		7D4E36D71A87E0EA00479010 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D4E36D51A87E0EA00479010 /* LaunchScreen.xib */; };
 		7D4E36E31A87E0EA00479010 /* LearningCenterAPPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4E36E21A87E0EA00479010 /* LearningCenterAPPTests.swift */; };
+		7D4E36EF1A87E4E600479010 /* TutorScheduleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4E36EE1A87E4E600479010 /* TutorScheduleTableViewController.swift */; };
+		7D4E36F31A87ED8300479010 /* SpecificTutorScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4E36F21A87ED8300479010 /* SpecificTutorScheduleViewController.swift */; };
+		7D5FE6771A92A1E200BCD53A /* Rose_Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D5FE6761A92A1E200BCD53A /* Rose_Logo.png */; };
+		7D6DAF881A8B984100DDD04B /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6DAF871A8B984100DDD04B /* SignUpViewController.swift */; };
+		7D6DAF8C1A8B9BC300DDD04B /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D6DAF8B1A8B9BC300DDD04B /* libicucore.dylib */; };
+		7D6DAF8E1A8B9BCD00DDD04B /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D6DAF8D1A8B9BCD00DDD04B /* libc++.dylib */; };
+		7D6DAF901A8B9BD200DDD04B /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D6DAF8F1A8B9BD200DDD04B /* CFNetwork.framework */; };
+		7D6DAF921A8B9BD800DDD04B /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D6DAF911A8B9BD800DDD04B /* Security.framework */; };
+		7D6DAF941A8B9BE000DDD04B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D6DAF931A8B9BE000DDD04B /* SystemConfiguration.framework */; };
+		7D6DAF9D1A8D0AB000DDD04B /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6DAF9C1A8D0AB000DDD04B /* SignInViewController.swift */; };
+		7D94C5F31A939B8D00DB9DB1 /* SignUpViewControllerObjC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D94C5F21A939B8D00DB9DB1 /* SignUpViewControllerObjC.m */; };
+		7D9F283C1A924178004A9E4A /* Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D9F283B1A924178004A9E4A /* Firebase.framework */; };
+		7DD47B271A8D184500CB62B7 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD47B261A8D184500CB62B7 /* CalendarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +40,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7D0E53CB1A8E67BB00FC7C0E /* StudentEvaluationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentEvaluationViewController.swift; sourceTree = "<group>"; };
+		7D0E53CF1A8E681E00FC7C0E /* TutorEvaluationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorEvaluationViewController.swift; sourceTree = "<group>"; };
 		7D4E36C71A87E0EA00479010 /* LearningCenterAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearningCenterAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D4E36CB1A87E0EA00479010 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7D4E36CC1A87E0EA00479010 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7D4E36CE1A87E0EA00479010 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7D4E36D11A87E0EA00479010 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7D4E36D31A87E0EA00479010 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		7D4E36D61A87E0EA00479010 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		7D4E36DC1A87E0EA00479010 /* LearningCenterAPPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearningCenterAPPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D4E36E11A87E0EA00479010 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7D4E36E21A87E0EA00479010 /* LearningCenterAPPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningCenterAPPTests.swift; sourceTree = "<group>"; };
+		7D4E36EE1A87E4E600479010 /* TutorScheduleTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorScheduleTableViewController.swift; sourceTree = "<group>"; };
+		7D4E36F21A87ED8300479010 /* SpecificTutorScheduleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpecificTutorScheduleViewController.swift; sourceTree = "<group>"; };
+		7D5FE6761A92A1E200BCD53A /* Rose_Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Rose_Logo.png; sourceTree = "<group>"; };
+		7D6DAF871A8B984100DDD04B /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		7D6DAF8B1A8B9BC300DDD04B /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		7D6DAF8D1A8B9BCD00DDD04B /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		7D6DAF8F1A8B9BD200DDD04B /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		7D6DAF911A8B9BD800DDD04B /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		7D6DAF931A8B9BE000DDD04B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		7D6DAF951A8B9C0B00DDD04B /* LearningCenterAPP-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LearningCenterAPP-Bridging-Header.h"; sourceTree = "<group>"; };
+		7D6DAF9C1A8D0AB000DDD04B /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		7D94C5F11A939B8D00DB9DB1 /* SignUpViewControllerObjC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewControllerObjC.h; sourceTree = "<group>"; };
+		7D94C5F21A939B8D00DB9DB1 /* SignUpViewControllerObjC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewControllerObjC.m; sourceTree = "<group>"; };
+		7D9F283B1A924178004A9E4A /* Firebase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Firebase.framework; sourceTree = "<group>"; };
+		7DD47B261A8D184500CB62B7 /* CalendarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +73,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D6DAF941A8B9BE000DDD04B /* SystemConfiguration.framework in Frameworks */,
+				7D6DAF921A8B9BD800DDD04B /* Security.framework in Frameworks */,
+				7D9F283C1A924178004A9E4A /* Firebase.framework in Frameworks */,
+				7D6DAF901A8B9BD200DDD04B /* CFNetwork.framework in Frameworks */,
+				7D6DAF8E1A8B9BCD00DDD04B /* libc++.dylib in Frameworks */,
+				7D6DAF8C1A8B9BC300DDD04B /* libicucore.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +95,12 @@
 		7D4E36BE1A87E0EA00479010 = {
 			isa = PBXGroup;
 			children = (
+				7D9F283B1A924178004A9E4A /* Firebase.framework */,
+				7D6DAF931A8B9BE000DDD04B /* SystemConfiguration.framework */,
+				7D6DAF911A8B9BD800DDD04B /* Security.framework */,
+				7D6DAF8F1A8B9BD200DDD04B /* CFNetwork.framework */,
+				7D6DAF8D1A8B9BCD00DDD04B /* libc++.dylib */,
+				7D6DAF8B1A8B9BC300DDD04B /* libicucore.dylib */,
 				7D4E36C91A87E0EA00479010 /* LearningCenterAPP */,
 				7D4E36DF1A87E0EA00479010 /* LearningCenterAPPTests */,
 				7D4E36C81A87E0EA00479010 /* Products */,
@@ -78,11 +120,20 @@
 			isa = PBXGroup;
 			children = (
 				7D4E36CC1A87E0EA00479010 /* AppDelegate.swift */,
-				7D4E36CE1A87E0EA00479010 /* ViewController.swift */,
 				7D4E36D01A87E0EA00479010 /* Main.storyboard */,
 				7D4E36D31A87E0EA00479010 /* Images.xcassets */,
 				7D4E36D51A87E0EA00479010 /* LaunchScreen.xib */,
 				7D4E36CA1A87E0EA00479010 /* Supporting Files */,
+				7D4E36EE1A87E4E600479010 /* TutorScheduleTableViewController.swift */,
+				7D4E36F21A87ED8300479010 /* SpecificTutorScheduleViewController.swift */,
+				7D6DAF871A8B984100DDD04B /* SignUpViewController.swift */,
+				7D0E53CB1A8E67BB00FC7C0E /* StudentEvaluationViewController.swift */,
+				7D94C5F11A939B8D00DB9DB1 /* SignUpViewControllerObjC.h */,
+				7D94C5F21A939B8D00DB9DB1 /* SignUpViewControllerObjC.m */,
+				7D0E53CF1A8E681E00FC7C0E /* TutorEvaluationViewController.swift */,
+				7D6DAF9C1A8D0AB000DDD04B /* SignInViewController.swift */,
+				7DD47B261A8D184500CB62B7 /* CalendarViewController.swift */,
+				7D6DAF951A8B9C0B00DDD04B /* LearningCenterAPP-Bridging-Header.h */,
 			);
 			path = LearningCenterAPP;
 			sourceTree = "<group>";
@@ -90,6 +141,7 @@
 		7D4E36CA1A87E0EA00479010 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7D5FE6761A92A1E200BCD53A /* Rose_Logo.png */,
 				7D4E36CB1A87E0EA00479010 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -193,6 +245,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D4E36D21A87E0EA00479010 /* Main.storyboard in Resources */,
+				7D5FE6771A92A1E200BCD53A /* Rose_Logo.png in Resources */,
 				7D4E36D71A87E0EA00479010 /* LaunchScreen.xib in Resources */,
 				7D4E36D41A87E0EA00479010 /* Images.xcassets in Resources */,
 			);
@@ -212,8 +265,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D4E36CF1A87E0EA00479010 /* ViewController.swift in Sources */,
+				7DD47B271A8D184500CB62B7 /* CalendarViewController.swift in Sources */,
+				7D4E36F31A87ED8300479010 /* SpecificTutorScheduleViewController.swift in Sources */,
+				7D6DAF9D1A8D0AB000DDD04B /* SignInViewController.swift in Sources */,
+				7D94C5F31A939B8D00DB9DB1 /* SignUpViewControllerObjC.m in Sources */,
+				7D0E53D01A8E681E00FC7C0E /* TutorEvaluationViewController.swift in Sources */,
 				7D4E36CD1A87E0EA00479010 /* AppDelegate.swift in Sources */,
+				7D0E53CC1A8E67BB00FC7C0E /* StudentEvaluationViewController.swift in Sources */,
+				7D4E36EF1A87E4E600479010 /* TutorScheduleTableViewController.swift in Sources */,
+				7D6DAF881A8B984100DDD04B /* SignUpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,9 +396,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/Cocopuff/Downloads,
+					/Users/NithinPerumal/Desktop,
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = LearningCenterAPP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LearningCenterAPP/LearningCenterAPP-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -346,9 +416,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/Cocopuff/Downloads,
+					/Users/NithinPerumal/Desktop,
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = LearningCenterAPP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LearningCenterAPP/LearningCenterAPP-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -405,6 +484,7 @@
 				7D4E36E81A87E0EA00479010 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7D4E36E91A87E0EA00479010 /* Build configuration list for PBXNativeTarget "LearningCenterAPPTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +493,7 @@
 				7D4E36EB1A87E0EA00479010 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
